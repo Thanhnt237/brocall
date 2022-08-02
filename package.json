@@ -1,0 +1,31 @@
+{
+  "name": "brocall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thanhnt237/brocall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thanhnt237/brocall/issues"
+  },
+  "homepage": "https://github.com/Thanhnt237/brocall#readme",
+  "devDependencies": {
+    "electron": "^19.0.10",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-8",
+    "@abandonware/noble": "^1.9.2-15",
+    "bulma": "^0.9.4",
+    "noble": "^1.9.1"
+  }
+}
